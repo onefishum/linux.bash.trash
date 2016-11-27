@@ -1,4 +1,4 @@
-#Linux 解决rm问题
+#Linux 解决rm误删除问题
 ```bash
 trash()
 {
