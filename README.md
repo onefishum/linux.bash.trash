@@ -15,7 +15,6 @@ trash()
 	
 	mkdir -p ~/.trash/$timestamp
 	echo `date -r $timestamp '+%x %X'` " $timestamp: rm $* --> mv "${files[@]}" --> source: `pwd`" >> ~/.trash/.trash.log 
-	ls -l  "${files[@]}" 
 	mv "${files[@]}" ~/.trash/$timestamp
 }
 ```
