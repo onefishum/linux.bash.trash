@@ -19,3 +19,4 @@ trash()
 	mv "${files[@]}" ~/.trash/$timestamp
 }
 ```
+
