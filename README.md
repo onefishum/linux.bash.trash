@@ -1,4 +1,5 @@
 #Linux 解决rm误删除问题
+
 添加到 ~/.bashrc 中
 ```bash
 alias rm=trash
